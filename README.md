@@ -29,7 +29,7 @@ This project focuses on **forensic reproducibility, not biological discovery**.
 
 ## Dataset
 
-- **Source:** NCBI GEO – GSE286438  
+- **Source:** NCBI GEO – [GSE286438](https://pmc.ncbi.nlm.nih.gov/articles/PMC11790594/)
 - **Data Type:** Bulk RNA-seq  
 - **Conditions:**
   - **NT** – Normal cells  
