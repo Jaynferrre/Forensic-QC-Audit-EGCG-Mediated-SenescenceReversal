@@ -1,0 +1,2 @@
+source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+GO:BP,GO:0006607,NLS-bearing protein import into nucleus,0.02686255224981582,True,"""The directed movement of a protein bearing a nuclear localization signal (NLS) from the cytoplasm into the nucleus, across the nuclear envelope."" [GOC:ai]",19,1,1,16268,1.0,0.05263157894736842,query_1,['GO:0006606']
