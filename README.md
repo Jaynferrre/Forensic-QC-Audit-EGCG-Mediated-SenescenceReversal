@@ -55,22 +55,23 @@ Our forensic re-analysis revealed several critical points that challenge or qual
 ---
 
 ## Repository Structure
-Forensic-QC-Audit-EGCG-Senescence/
-├── Deliverables/
-│   ├── DH607_Poster_24B2176.pdf          # Research poster for presentation
-│   └── DH607_Project_Report_24B2176.pdf  # Comprehensive final project report
-├── Notebooks/
-│   ├── Differential Gene Expression.ipynb # Main analysis notebook (DGE)
-│   └── phase1.ipynb                      # Initial data processing and exploration
-├── Reference/
-│   ├── fcvm-11-1506360.pdf               # Primary reference literature
-│   └── supplementary_fcvm-11-1506360.pdf # Supplementary material for reference
-├── Results/
-│   ├── DGE_Results_EGCG_vs_Senescence.csv # Output data from the DGE analysis
-│   └── Enrichment_UpRegulated.csv         # Gene set enrichment analysis results
-├── GSE286438_Counts_matrix_Patel_...      # Raw counts matrix (Dataset)
-├── LICENSE                               # Repository licensing information
-└── README.md                             # Project documentation (this file)
+  Forensic-QC-Audit-EGCG-Senescence/
+  .
+  ├── Deliverables/
+  │   ├── DH607_Poster_24B2176.pdf          # Research poster for presentation
+  │   └── DH607_Project_Report_24B2176.pdf  # Comprehensive final project report
+  ├── Notebooks/
+  │   ├── Differential Gene Expression.ipynb # Main analysis notebook (DGE)
+  │   └── phase1.ipynb                      # Initial data processing and exploration
+  ├── Reference/
+  │   ├── fcvm-11-1506360.pdf               # Primary reference literature
+  │   └── supplementary_fcvm-11-1506360.pdf # Supplementary material for reference
+  ├── Results/
+  │   ├── DGE_Results_EGCG_vs_Senescence.csv # Output data from the DGE analysis
+  │   └── Enrichment_UpRegulated.csv         # Gene set enrichment analysis results
+  ├── GSE286438_Counts_matrix_Patel_...      # Raw counts matrix (Dataset)
+  ├── LICENSE                               # Repository licensing information
+  └── README.md                             # Project documentation (this file)
 
 
 
