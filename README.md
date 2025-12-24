@@ -55,13 +55,32 @@ Our forensic re-analysis revealed several critical points that challenge or qual
 ---
 
 ## Repository Structure
+Forensic-QC-Audit-EGCG-Senescence/
+├── Deliverables/
+│   ├── DH607_Poster_24B2176.pdf          # Research poster for presentation
+│   └── DH607_Project_Report_24B2176.pdf  # Comprehensive final project report
+├── Notebooks/
+│   ├── Differential Gene Expression.ipynb # Main analysis notebook (DGE)
+│   └── phase1.ipynb                      # Initial data processing and exploration
+├── Reference/
+│   ├── fcvm-11-1506360.pdf               # Primary reference literature
+│   └── supplementary_fcvm-11-1506360.pdf # Supplementary material for reference
+├── Results/
+│   ├── DGE_Results_EGCG_vs_Senescence.csv # Output data from the DGE analysis
+│   └── Enrichment_UpRegulated.csv         # Gene set enrichment analysis results
+├── GSE286438_Counts_matrix_Patel_...      # Raw counts matrix (Dataset)
+├── LICENSE                               # Repository licensing information
+└── README.md                             # Project documentation (this file)
 
-- `GSE286438_Counts_matrix_Patel_2024.csv`: The raw count matrix used for analysis.
-- `phase1.ipynb`: Initial EDA, QC, and correlation analysis.
-- `Differential Gene Expression.ipynb`: Main DGE pipeline and functional enrichment.
 
 
 
+## How to Run 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/](https://github.com/)[Your-Username]/Forensic-QC-Audit-EGCG-Mediated-Senescence-Reversal.git
+2. **Install dependencies:**
+   ```bash
+   pip install pydeseq2 gprofiler-official pandas matplotlib seaborn numpy
+3. **Execute the analysis:**
+   Open and run the Jupyter notebooks in the following order: phase1.ipynb → Differential Gene Expression.ipynb.
