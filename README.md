@@ -55,8 +55,8 @@ Our forensic re-analysis revealed several critical points that challenge or qual
 ---
 
 ## Repository Structure
+  ```
   Forensic-QC-Audit-EGCG-Senescence/
-  .
   ├── Deliverables/
   │   ├── DH607_Poster_24B2176.pdf          # Research poster for presentation
   │   └── DH607_Project_Report_24B2176.pdf  # Comprehensive final project report
@@ -72,7 +72,7 @@ Our forensic re-analysis revealed several critical points that challenge or qual
   ├── GSE286438_Counts_matrix_Patel_...      # Raw counts matrix (Dataset)
   ├── LICENSE                               # Repository licensing information
   └── README.md                             # Project documentation (this file)
-
+```
 
 
 
