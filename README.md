@@ -54,7 +54,7 @@ Our forensic re-analysis revealed several critical points that challenge or qual
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `GSE286438_Counts_matrix_Patel_2024.csv`: The raw count matrix used for analysis.
 - `phase1.ipynb`: Initial EDA, QC, and correlation analysis.
